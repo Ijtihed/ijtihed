@@ -9,8 +9,8 @@ I build simulation systems that make the physical world digital, interactive, an
 
 ### ~/ now
 
-- High-fidelity multi-agent sims (real-time, low-latency backends)
-- Playing with VR/AR, human-robot interaction, and game-feel tooling
+- High-fidelity multi-agent sims (real-time, low-latency) in both research and engineering
+- Playing with VR/AR/XR, human-robot interaction, and game-feel tooling
 
 ---
 
