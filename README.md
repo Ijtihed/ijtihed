@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ijtihed</h1>
-<h3 align="center">Software Engineer @ Sensofusion focusing on Simulations Systems and Backend Engineering</h3>
+<h3 align="center">Software Engineer @ Kova Labs (ex-Sensofusion) focusing on Simulations and Systems</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ijtihed&label=Profile%20views&color=0e75b6&style=flat" alt="ijtihed" /> </p>
 
 -  I’m currently working on **[Blood Pivot](https://store.steampowered.com/app/2384470/Blood_Pivot/)**
-
--  I’m looking to collaborate on **Cool game ideas! 👾**
 
 -  All of my projects are available at [ijtihed.com](ijtihed.com)
 
