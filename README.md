@@ -3,7 +3,7 @@
 CS @ Aalto  
 Founding Software Engineer @ Kova Labs (ex-Sensofusion)  
 
-I build simulation systems that make the physical world digital, interactive, and a bit weird.
+I build simulation systems that make the physical world digital and interactive (and mathematically sound).
 
 ---
 
@@ -22,7 +22,7 @@ Sim systems · digital twins · robotics · XR · real-time backends · control 
 
 ### ~/ stack
 
-`Python` `C++` `C#` `TypeScript/JavaScript`
+`Python` `C++` `C#` `TypeScript/JavaScript` 
 
 ---
 
