@@ -1,6 +1,7 @@
-# $ ijtihed
+# $ ijtihed.
 
-CS @ Aalto  
+Math + CS @ Aalto 
+
 Founding Software Engineer @ Kova Labs (ex-Sensofusion)  
 
 I build simulation systems that make the physical world digital and interactive (and mathematically sound).
