@@ -2,7 +2,7 @@
 
 Math + CS @ Aalto 
 
-Founding Software Engineer @ Kova Labs (ex-Sensofusion)  
+AI @ Supercell (ex-Sensofusion)  
 
 I build simulation systems that make the physical world digital and interactive (and mathematically sound).
 
@@ -10,6 +10,7 @@ I build simulation systems that make the physical world digital and interactive 
 
 ### ~/ now
 
+- Building AI side projects + AI innovation
 - High-fidelity multi-agent sims (real-time, low-latency) in both research and engineering
 - Playing with VR/AR/XR, human-robot interaction, and game-feel tooling
 
@@ -17,7 +18,7 @@ I build simulation systems that make the physical world digital and interactive 
 
 ### ~/ interests
 
-Sim systems · digital twins · robotics · XR · real-time backends · control · sensor fusion
+sim systems · digital twins · robotics · XR · real-time backends · control · sensor fusion · new games 
 
 ---
 
@@ -30,5 +31,5 @@ Sim systems · digital twins · robotics · XR · real-time backends · control 
 ### ~/ contact
 
 - Site: **https://www.ijtihed.com**  
-- Email: **ijtihed.kilani@aalto.fi**  
+- Email: **ijtihedk@gmail.com**  
 - LinkedIn: **https://linkedin.com/in/ijtihed**
