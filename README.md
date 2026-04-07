@@ -28,12 +28,12 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 ---
 
-### ~/ projects
+### ~/ (deployed) projects i'm proud of
 
 | Project | Summary |
 |---|---|
 | [superTest](https://supertest-chi.vercel.app) | AI-powered test generation platform |
-| [goodclaude](https://goodclaude.vercel.app) | positive reinforcement for Claude Code |
+| [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
 | [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
 | [ijti overleaf](https://ijtioverleaf.vercel.app) | ATS-friendly LaTeX resume template |
 
