@@ -33,9 +33,8 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 | Project | Summary |
 |---|---|
 | [superTest](https://supertest-chi.vercel.app) | AI-powered test generation platform |
-| [Null Fellows](https://nullfellows.com) | EU builder → hyperscaler pipeline |
-| [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
 | [goodclaude](https://goodclaude.vercel.app) | positive reinforcement for Claude Code |
+| [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
 | [ijtiOverleaf](https://ijtioverleaf.vercel.app) | ATS-friendly LaTeX resume template |
 
 ### ~/ github activity
