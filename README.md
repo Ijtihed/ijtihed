@@ -35,6 +35,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 | [superTest](https://supertest-chi.vercel.app) | AI-powered test generation platform |
 | [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
 | [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
+| [driftmd](https://driftmd.vercel.app) | check readme.md drift automatically |
 | [ijti overleaf](https://ijtioverleaf.vercel.app) | ATS-friendly LaTeX resume template |
 
 ### ~/ github activity
