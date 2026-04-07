@@ -28,6 +28,14 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 ---
 
+### ~/ (deployed) projects i'm proud of
+| Project | Summary |
+|---|---|
+| [superTest](https://supertest-chi.vercel.app) | AI-powered test generation platform |
+| [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
+| [ijtiOverleaf](https://ijtioverleaf.vercel.app) | ATS-friendly LaTeX resume template |
+
+
 ### ~/ github activity
 
 ![Merged PRs](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Merged%20PRs&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%253AIjtihed%2Bis%253Apr%2Bis%253Amerged)
