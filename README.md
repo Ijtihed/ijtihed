@@ -4,7 +4,7 @@ Math + CS @ Aalto
 
 AI @ Supercell (ex-Sensofusion)  
 
-I build simulation systems that make the physical world digital and interactive (and mathematically sound).
+I build dev tools, troll software, platforms, and simulation systems.
 
 ---
 
