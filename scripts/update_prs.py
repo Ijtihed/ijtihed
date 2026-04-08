@@ -75,6 +75,15 @@ def fetch_merged_prs(limit=50):
 
 # ── section builders ───────────────────────────────────────────────────────────
 
+def fetch_star_count(repo):
+    try:
+        r = requests.get(f"https://api.github.com/repos/{repo}", headers=GH_HEADERS)
+        r.raise_for_status()
+        return r.json().get("stargazers_count", 0)
+    except Exception:
+        return 0
+
+
 def build_contributor_repos(all_prs):
     seen = []
     for pr in all_prs:
@@ -83,6 +92,7 @@ def build_contributor_repos(all_prs):
             seen.append(repo)
     if not seen:
         return "_no external contributions yet_"
+    seen.sort(key=fetch_star_count, reverse=True)
     return " ".join(f"[`{r}`](https://github.com/{r})" for r in seen)
 
 
