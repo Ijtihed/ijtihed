@@ -43,7 +43,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-`lichess-org/lila` `numpy/numpy` `official-stockfish/fishtest`
+[`lichess-org/lila`](https://github.com/lichess-org/lila) [`numpy/numpy`](https://github.com/numpy/numpy) [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest)
 <!-- CONTRIB_REPOS_END -->
 
 **latest 3**
@@ -55,7 +55,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **this month**
 <!-- MONTHLY_SUMMARY_START -->
-> This developer contributed to various open source projects including lichess, numpy and official-stockfish, implementing several bug fixes and UI improvements.
+> The developer contributed to lichess-org/lila, official-stockfish/fishtest, and numpy by fixing bugs and improving performance and user experience.
 <!-- MONTHLY_SUMMARY_END -->
 
 ### ~/ github activity
