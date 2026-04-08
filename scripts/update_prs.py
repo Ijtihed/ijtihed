@@ -115,20 +115,24 @@ def build_summary(prs, period_label="this month"):
         "Be specific about the libraries/projects. Plain text only, no markdown."
     )
 
-    r = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {GROQ_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": "llama3-8b-8192",
-            "max_tokens": 80,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-    )
-    r.raise_for_status()
-    return f"> {r.json()['choices'][0]['message']['content'].strip()}"
+    try:
+        r = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {GROQ_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": "llama-3.1-8b-instant",
+                "max_tokens": 80,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+        )
+        r.raise_for_status()
+        return f"> {r.json()['choices'][0]['message']['content'].strip()}"
+    except Exception as e:
+        print(f"WARNING: Groq API call failed: {e}")
+        return f"_summary unavailable_"
 
 
 # ── README updater ──────────────────────────────────────────────────────────────
