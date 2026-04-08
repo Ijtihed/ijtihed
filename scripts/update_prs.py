@@ -83,7 +83,7 @@ def build_contributor_repos(all_prs):
             seen.append(repo)
     if not seen:
         return "_no external contributions yet_"
-    return " ".join(f"`{r}`" for r in seen)
+    return " ".join(f"[`{r}`](https://github.com/{r})" for r in seen)
 
 
 def build_latest(prs, n=3):
