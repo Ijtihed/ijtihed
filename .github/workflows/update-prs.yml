@@ -13,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,12 +31,24 @@ jobs:
           GITHUB_USERNAME: Ijtihed
         run: python scripts/update_prs.py
 
-      - name: Commit and push if README changed
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet && echo "No changes" || (
-            git add README.md &&
-            git commit -m "chore: auto-update latest OSS PRs" &&
+          if ! git diff --quiet; then
+            git add README.md
+            git commit -m "chore: auto-update latest OSS PRs"
             git push
-          )
+          else
+            last_commit_ts=$(git log -1 --format=%ct)
+            now_ts=$(date +%s)
+            days_since=$(( (now_ts - last_commit_ts) / 86400 ))
+            if [ "$days_since" -ge 3 ]; then
+              date -u +%Y-%m-%dT%H:%M:%SZ > .heartbeat
+              git add .heartbeat
+              git commit -m "chore: heartbeat"
+              git push
+            else
+              echo "No changes, last commit was ${days_since}d ago (< 3d), skipping"
+            fi
+          fi
