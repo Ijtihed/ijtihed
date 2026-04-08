@@ -34,7 +34,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 |---|---|
 | [epitaph](https://epitaph-dev.vercel.app) | npm package → check dependency health systematically |
 | [driftmd](https://driftmd.vercel.app) | npm package → check readme.md drift automatically |
-| [superTest](https://supertest-chi.vercel.app) | AI-powered game test platform |
+| [supertest](https://supertest-chi.vercel.app) | AI-powered game test platform |
 | [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
 | [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
 
