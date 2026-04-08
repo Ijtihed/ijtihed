@@ -129,9 +129,10 @@ def build_summary(prs, period_label="this month"):
         f"- {pr['org']}/{pr['short']} #{pr['number']}: {pr['title']}" for pr in prs
     )
     prompt = (
-        f"Here are open source pull requests merged by a developer {period_label}:\n\n"
+        f"Here are my open source pull requests that got merged {period_label}:\n\n"
         f"{pr_list}\n\n"
-        "Write a single short sentence (max 25 words) summarising what they worked on. "
+        "Write a single short sentence (max 25 words) summarising what i worked on. "
+        "Write in first person (\"i did xyz\"). All lowercase, no capitalisation. "
         "Be specific about the libraries/projects. Plain text only, no markdown."
     )
 
