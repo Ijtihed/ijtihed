@@ -43,7 +43,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy) <sub>⭐ 31.8k</sub> [`lichess-org/lila`](https://github.com/lichess-org/lila) <sub>⭐ 18k</sub> [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest) <sub>⭐ 336</sub>
+[`numpy/numpy`](https://github.com/numpy/numpy) ⭐ 31.8k [`lichess-org/lila`](https://github.com/lichess-org/lila) ⭐ 18k [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest) ⭐ 336
 <!-- CONTRIB_REPOS_END -->
 
 **latest 3**
@@ -55,7 +55,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **this month**
 <!-- MONTHLY_SUMMARY_START -->
-> This month, the developer made updates to Lichess, numpy and Fishtest, improving sound handling, HTML linting, matrix operations and user interface styling.
+> This developer worked on various open source projects including Lila, NumPy, and Fishtest, making improvements and fixes.
 <!-- MONTHLY_SUMMARY_END -->
 
 ### ~/ github activity
