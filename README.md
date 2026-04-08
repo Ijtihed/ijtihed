@@ -43,7 +43,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) <sub>⭐ 31.8k</sub> [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) <sub>⭐ 18k</sub> [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) <sub>⭐ 336</sub>
+[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.8k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18k [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
 <!-- CONTRIB_REPOS_END -->
 
 **latest 3**
@@ -55,7 +55,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **this month**
 <!-- MONTHLY_SUMMARY_START -->
-> This month, the developer made updates to Lichess, numpy and Fishtest, improving sound handling, HTML linting, matrix operations and user interface styling.
+> The developer contributed to Lichess, Numpy, and Stockfish by fixing bugs and improving code quality through various pull requests this month.
 <!-- MONTHLY_SUMMARY_END -->
 
 ### ~/ github activity
