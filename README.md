@@ -55,7 +55,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **this month**
 <!-- MONTHLY_SUMMARY_START -->
-> The developer contributed to Lichess, Numpy, and Stockfish by fixing bugs and improving code quality through various pull requests this month.
+> i contributed to several projects including lichess-org's lila, numpy, official-stockfish fishtest, and added features, fixed bugs and improved code.
 <!-- MONTHLY_SUMMARY_END -->
 
 ### ~/ github activity
