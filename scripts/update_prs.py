@@ -101,7 +101,7 @@ def build_contributor_repos(all_prs):
     repos_with_stars = [(r, fetch_star_count(r)) for r in seen]
     repos_with_stars.sort(key=lambda x: x[1], reverse=True)
     return " ".join(
-        f"[`{r}`](https://github.com/{r}) ⭐ {format_stars(s)}"
+        f"[`{r}`](https://github.com/{r}/pulls?q=is%3Apr+author%3A{USERNAME}) ⭐ {format_stars(s)}"
         for r, s in repos_with_stars
     )
 
