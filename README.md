@@ -46,7 +46,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 `lichess-org/lila` `numpy/numpy` `official-stockfish/fishtest`
 <!-- CONTRIB_REPOS_END -->
 
-**latest**
+**latest 3**
 <!-- LATEST_PRS_START -->
 - [lichess-org/lila #20201](https://github.com/lichess-org/lila/pull/20201) — defer AudioContext creation in sound init via setTimeout(0)  `Apr 08`
 - [lichess-org/lila #20199](https://github.com/lichess-org/lila/pull/20199) — add HTML checks to i18n linting  `Apr 08`
