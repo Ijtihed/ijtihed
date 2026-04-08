@@ -84,6 +84,12 @@ def fetch_star_count(repo):
         return 0
 
 
+def format_stars(n):
+    if n >= 1000:
+        return f"{n / 1000:.1f}k".replace(".0k", "k")
+    return str(n)
+
+
 def build_contributor_repos(all_prs):
     seen = []
     for pr in all_prs:
@@ -92,8 +98,12 @@ def build_contributor_repos(all_prs):
             seen.append(repo)
     if not seen:
         return "_no external contributions yet_"
-    seen.sort(key=fetch_star_count, reverse=True)
-    return " ".join(f"[`{r}`](https://github.com/{r})" for r in seen)
+    repos_with_stars = [(r, fetch_star_count(r)) for r in seen]
+    repos_with_stars.sort(key=lambda x: x[1], reverse=True)
+    return " ".join(
+        f"[`{r}`](https://github.com/{r}) <sub>⭐ {format_stars(s)}</sub>"
+        for r, s in repos_with_stars
+    )
 
 
 def build_latest(prs, n=3):
