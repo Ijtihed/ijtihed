@@ -42,19 +42,19 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.8k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18k [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
+[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.8k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 780 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
 <!-- CONTRIB_REPOS_END -->
 
 **latest 3**
 <!-- LATEST_PRS_START -->
+- [Unity-Technologies/UnityDataTools #63](https://github.com/Unity-Technologies/UnityDataTools/pull/63) — Add type filtering to dump command (Issue #52)  `Apr 08`
 - [lichess-org/lila #20201](https://github.com/lichess-org/lila/pull/20201) — defer AudioContext creation in sound init via setTimeout(0)  `Apr 08`
 - [lichess-org/lila #20199](https://github.com/lichess-org/lila/pull/20199) — add HTML checks to i18n linting  `Apr 08`
-- [numpy/numpy #31150](https://github.com/numpy/numpy/pull/31150) — BUG: Fix matvec/vecmat in-place aliasing (out=input produces zeros)  `Apr 07`
 <!-- LATEST_PRS_END -->
 
 **this month**
 <!-- MONTHLY_SUMMARY_START -->
-> i contributed to several projects including lichess-org's lila, numpy, official-stockfish fishtest, and added features, fixed bugs and improved code.
+> i contributed to several open source projects, including unity, lichess, numpy, and stockfish, with various bug fixes and feature improvements.
 <!-- MONTHLY_SUMMARY_END -->
 
 ### ~/ github activity
