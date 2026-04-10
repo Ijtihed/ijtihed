@@ -42,7 +42,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.8k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 780 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
+[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.8k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 783 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
 <!-- CONTRIB_REPOS_END -->
 
 **latest 3**
@@ -54,7 +54,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **this month**
 <!-- MONTHLY_SUMMARY_START -->
-> i contributed to several open source projects, including unity, lichess, numpy, and stockfish, with various bug fixes and feature improvements.
+> i worked on merging pull requests for various open source projects, including unity, lichess, numpy and stockfish.
 <!-- MONTHLY_SUMMARY_END -->
 
 ### ~/ github activity
