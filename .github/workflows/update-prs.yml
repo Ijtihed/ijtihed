@@ -24,10 +24,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Update README with latest PRs
+      - name: Update contributed repos in README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_USERNAME: Ijtihed
         run: python scripts/update_prs.py
 
@@ -37,7 +36,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
             git add README.md
-            git commit -m "chore: auto-update latest OSS PRs"
+            git commit -m "chore: auto-update OSS contrib repos in README"
             git push
           else
             last_commit_ts=$(git log -1 --format=%ct)

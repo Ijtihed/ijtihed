@@ -1,18 +1,14 @@
 """
 Updates README with:
   - repos contributed to (unique list, auto-filtered)
-  - latest 3 merged PRs
-  - AI-generated monthly activity summary via Claude API
 """
 
 import os
 import re
 import requests
-from datetime import datetime, timedelta, timezone
 
 USERNAME = os.environ.get("GITHUB_USERNAME", "Ijtihed")
 GH_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GROQ_KEY = os.environ.get("GROQ_API_KEY", "")
 README_PATH = "README.md"
 
 GH_HEADERS = {
@@ -59,8 +55,6 @@ def fetch_merged_prs(limit=50):
         repo_name = item["repository_url"].replace("https://api.github.com/repos/", "")
         if repo_name.lower() in own:
             continue
-        merged_at_str = item.get("pull_request", {}).get("merged_at") or item.get("closed_at")
-        merged_at = datetime.fromisoformat(merged_at_str.replace("Z", "+00:00")) if merged_at_str else None
         results.append({
             "repo": repo_name,
             "org": repo_name.split("/")[0],
@@ -68,7 +62,6 @@ def fetch_merged_prs(limit=50):
             "number": item["number"],
             "url": item["html_url"],
             "title": item["title"],
-            "merged_at": merged_at,
         })
     return results
 
@@ -106,56 +99,6 @@ def build_contributor_repos(all_prs):
     )
 
 
-def build_latest(prs, n=3):
-    if not prs:
-        return "_no recent merged PRs_"
-    lines = []
-    for pr in prs[:n]:
-        date = pr["merged_at"].strftime("%b %d") if pr["merged_at"] else ""
-        lines.append(
-            f"- [{pr['org']}/{pr['short']} #{pr['number']}]({pr['url']}) — {pr['title']}"
-            + (f"  `{date}`" if date else "")
-        )
-    return "\n".join(lines)
-
-
-def build_summary(prs, period_label="this month"):
-    if not GROQ_KEY:
-        return f"_set `GROQ_API_KEY` secret to enable {period_label} summary_"
-    if not prs:
-        return f"_no merged PRs {period_label}_"
-
-    pr_list = "\n".join(
-        f"- {pr['org']}/{pr['short']} #{pr['number']}: {pr['title']}" for pr in prs
-    )
-    prompt = (
-        f"Here are my open source pull requests that got merged {period_label}:\n\n"
-        f"{pr_list}\n\n"
-        "Write a single short sentence (max 25 words) summarising what i worked on. "
-        "Write in first person (\"i did xyz\"). All lowercase, no capitalisation. "
-        "Be specific about the libraries/projects. Plain text only, no markdown."
-    )
-
-    try:
-        r = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {GROQ_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": "llama-3.1-8b-instant",
-                "max_tokens": 80,
-                "messages": [{"role": "user", "content": prompt}],
-            },
-        )
-        r.raise_for_status()
-        return f"> {r.json()['choices'][0]['message']['content'].strip()}"
-    except Exception as e:
-        print(f"WARNING: Groq API call failed: {e}")
-        return f"_summary unavailable_"
-
-
 # ── README updater ──────────────────────────────────────────────────────────────
 
 def replace_section(readme, marker, content):
@@ -169,12 +112,10 @@ def replace_section(readme, marker, content):
     return re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
 
-def update_readme(contrib_content, latest_content, summary_content):
+def update_readme(contrib_content):
     with open(README_PATH, "r") as f:
         readme = f.read()
     readme = replace_section(readme, "CONTRIB_REPOS", contrib_content)
-    readme = replace_section(readme, "LATEST_PRS", latest_content)
-    readme = replace_section(readme, "MONTHLY_SUMMARY", summary_content)
     with open(README_PATH, "w") as f:
         f.write(readme)
     print("README updated.")
@@ -183,18 +124,7 @@ def update_readme(contrib_content, latest_content, summary_content):
 # ── main ───────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    now = datetime.now(timezone.utc)
-    month_ago = now - timedelta(days=30)
-
     all_prs = fetch_merged_prs(limit=50)
-    recent_prs = [p for p in all_prs if p["merged_at"] and p["merged_at"] >= month_ago]
-
     contrib = build_contributor_repos(all_prs)
-    latest = build_latest(all_prs, n=3)
-    summary = build_summary(recent_prs, period_label="this month")
-
     print("── contrib repos ──\n", contrib)
-    print("── latest ──\n", latest)
-    print("── summary ──\n", summary)
-
-    update_readme(contrib, latest, summary)
+    update_readme(contrib)
