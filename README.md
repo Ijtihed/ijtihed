@@ -43,7 +43,7 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.9k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.1k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 788 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
+[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 31.9k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.1k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 789 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 336
 <!-- CONTRIB_REPOS_END -->
 
 ### ~/ github activity
