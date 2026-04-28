@@ -2,7 +2,7 @@
 
 Math + CS @ Aalto 
 
-AI @ Supercell (ex-Sensofusion)  
+AI @ Supercell / SW @ OURA (ex-Sensofusion)  
 
 I build dev tools, troll software, platforms, and simulation systems.
 
