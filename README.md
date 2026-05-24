@@ -28,16 +28,18 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 
 ---
 
-### ~/ (deployed) projects i'm proud of
+### ~/ projects i'm proud of
 
 | Project | Summary |
 |---|---|
-| [epitaph](https://epitaph-dev.vercel.app) | npm package → check dependency health systematically |
-| [driftmd](https://driftmd.vercel.app) | npm package → check readme.md drift automatically |
-| [supertest](https://supertest-chi.vercel.app) | AI-powered game test platform |
-| [staleflags](https://staleflags.vercel.app) | catch stale flags before they become an issue |
-| [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
+| [schema](https://schema-coral.vercel.app) | AI-native IDE for software architecture — plain-english diffs become AST transforms, run through your test suite, and animate the dependency graph as it mutates |
+| [sandengine](https://github.com/Ijtihed/sandengine) | research-grade 2D falling-sand cellular automaton in Rust + wgpu — chunked CA, hand-written WGSL bloom shader, history scrubbing, ~180M cells/sec |
+| [supertest](https://supertest-chi.vercel.app) | AI-powered cohort playtesting platform — adopted by Supercell AI Lab |
 | [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
+| [epitaph](https://epitaph-dev.vercel.app) | npm package → check dependency health systematically |
+| [staleflags](https://staleflags.vercel.app) | catch stale flags before they become an issue |
+| [driftmd](https://driftmd.vercel.app) | npm package → check readme.md drift automatically |
+| [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
 
 ### ~/ open source
 
