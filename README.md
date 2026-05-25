@@ -37,13 +37,12 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 | [supertest](https://supertest-chi.vercel.app) | AI-powered cohort playtesting platform, adopted by Supercell AI Lab |
 | [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
 | [epitaph](https://epitaph-dev.vercel.app) | npm package → check dependency health systematically |
-| [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
 
 ### ~/ open source
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.1k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.3k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 798 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 337 [`dev-arcturus/positional_chess`](https://github.com/dev-arcturus/positional_chess/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 1
+[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.1k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.2k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 798 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 337
 <!-- CONTRIB_REPOS_END -->
 
 ### ~/ github activity
