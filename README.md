@@ -33,11 +33,10 @@ sim systems · digital twins · robotics · XR · real-time backends · control 
 | Project | Summary |
 |---|---|
 | [schema](https://schema-coral.vercel.app) | AI-native IDE for software architecture. plain-english diffs become AST transforms, run through your test suite, and animate the dependency graph as it mutates |
+| [ochess](https://ochess.vercel.app) | online chess platform with anki-style puzzle generation from your own games |
 | [supertest](https://supertest-chi.vercel.app) | AI-powered cohort playtesting platform, adopted by Supercell AI Lab |
 | [emergent systems](https://emergent-systems-five.vercel.app) | 23 browser simulations of self-organizing computation |
 | [epitaph](https://epitaph-dev.vercel.app) | npm package → check dependency health systematically |
-| [staleflags](https://staleflags.vercel.app) | catch stale flags before they become an issue |
-| [driftmd](https://driftmd.vercel.app) | npm package → check readme.md drift automatically |
 | [goodclaude](https://goodclaude.vercel.app) | npm package → positive reinforcement for Claude Code |
 
 ### ~/ open source
