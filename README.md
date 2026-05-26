@@ -43,7 +43,6 @@ Tip: visit [`ijtihed.com`](https://ijtihed.com) to browse my full portfolio.
 | **Teaching**      | Aalto CS - Complex Systems, Software Testing, Software Design, Software Engineering.                                  |
 | **Writing**       | Posts & longform at [ijtihed.com](https://ijtihed.com).                                                               |
 | **Yapping**       | [X](https://x.com/ijtihedki) / [LinkedIn](https://www.linkedin.com/in/ijtihed/) / [GitHub](https://github.com/Ijtihed). |
-| **Livestreaming** | Builds & deep dives on [YouTube](https://www.youtube.com/@ijtihed).                                                   |
 
 ---
 
