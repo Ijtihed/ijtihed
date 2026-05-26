@@ -5,9 +5,9 @@
 
 👾 I'm **Ijtihed**.
 
-🎓 Math + CS @ [Aalto](https://www.aalto.fi) with a deep passion for dev tools, simulation systems, and platforms.
+✍️ Math + CS @ [Aalto](https://www.aalto.fi) with a deep passion for dev tools, simulation systems, and platforms.
 
-💍 I cook [**@null fellows**](https://nullfellows.com)
+👀 I make rings @ [oura ring](https://ouraring.com) and cook @ [**@null fellows**](https://nullfellows.com).
 
 [![site](https://img.shields.io/badge/ijtihed.com-313131?style=flat&labelColor=545454&color=313131)](https://ijtihed.com) [![views](https://komarev.com/ghpvc/?username=Ijtihed&style=flat&color=313131&label=views&abbreviated=true)](https://github.com/Ijtihed) [![Null Fellow](https://img.shields.io/badge/Null-Fellow-blue?style=flat&labelColor=545454&color=313131)](https://nullfellows.com)
 
