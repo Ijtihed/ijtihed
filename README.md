@@ -50,7 +50,7 @@ Tip: visit [`ijtihed.com`](https://ijtihed.com) to browse my full portfolio.
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.1k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.3k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 799 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 337 [`dev-arcturus/positional_chess`](https://github.com/dev-arcturus/positional_chess/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 1
+[`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.1k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.3k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 799 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 338 [`dev-arcturus/positional_chess`](https://github.com/dev-arcturus/positional_chess/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 1
 <!-- CONTRIB_REPOS_END -->
 
 <div align="right">
