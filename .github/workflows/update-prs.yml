@@ -1,4 +1,4 @@
-name: Update PR List in README
+name: Update README (stats + OSS contribs)
 
 on:
   schedule:
@@ -30,13 +30,19 @@ jobs:
           GITHUB_USERNAME: Ijtihed
         run: python scripts/update_prs.py
 
+      - name: Update stats in README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Ijtihed
+        run: python scripts/update_stats.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet; then
             git add README.md
-            git commit -m "chore: auto-update OSS contrib repos in README"
+            git commit -m "chore: auto-update README stats & OSS contribs"
             git push
           else
             last_commit_ts=$(git log -1 --format=%ct)
