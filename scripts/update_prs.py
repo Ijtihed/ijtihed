@@ -5,7 +5,14 @@ Updates README with:
 
 import os
 import re
+import sys
 import requests
+
+# Make stdout UTF-8 so the ⭐ in debug output doesn't choke on Windows consoles.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except (AttributeError, ValueError):
+    pass
 
 USERNAME = os.environ.get("GITHUB_USERNAME", "Ijtihed")
 GH_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -83,6 +90,9 @@ def format_stars(n):
     return str(n)
 
 
+MIN_STARS = 100  # only surface contributions to repos with at least this many stars
+
+
 def build_contributor_repos(all_prs):
     seen = []
     for pr in all_prs:
@@ -92,6 +102,9 @@ def build_contributor_repos(all_prs):
     if not seen:
         return "_no external contributions yet_"
     repos_with_stars = [(r, fetch_star_count(r)) for r in seen]
+    repos_with_stars = [(r, s) for r, s in repos_with_stars if s >= MIN_STARS]
+    if not repos_with_stars:
+        return "_no external contributions yet_"
     repos_with_stars.sort(key=lambda x: x[1], reverse=True)
     return " ".join(
         f"[`{r}`](https://github.com/{r}/pulls?q=is%3Apr+author%3A{USERNAME}) ⭐ {format_stars(s)}"
@@ -113,10 +126,10 @@ def replace_section(readme, marker, content):
 
 
 def update_readme(contrib_content):
-    with open(README_PATH, "r") as f:
+    with open(README_PATH, "r", encoding="utf-8") as f:
         readme = f.read()
     readme = replace_section(readme, "CONTRIB_REPOS", contrib_content)
-    with open(README_PATH, "w") as f:
+    with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(readme)
     print("README updated.")
 
@@ -126,5 +139,5 @@ def update_readme(contrib_content):
 if __name__ == "__main__":
     all_prs = fetch_merged_prs(limit=50)
     contrib = build_contributor_repos(all_prs)
-    print("── contrib repos ──\n", contrib)
+    print("-- contrib repos --\n", contrib)
     update_readme(contrib)
