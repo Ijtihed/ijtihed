@@ -17,9 +17,9 @@
 #### ⚡ Stats
 
 <!-- STATS_START -->
-I joined GitHub **2** years ago and have since pushed **1,730** commits, opened **4** issues, submitted **19** pull requests, and earned **10** stars across **14** personal projects, with contributions to **28** public repositories.
+I joined GitHub **2** years ago and have since pushed **1,732** commits, opened **4** issues, submitted **19** pull requests, and earned **10** stars across **15** personal projects, with contributions to **29** public repositories.
 
-I'm not on a commit streak right now.
+I'm currently on a **1**-day commit streak.
 <!-- STATS_END -->
 
 #### 🌀 Projects
@@ -50,7 +50,7 @@ Tip: visit [`ijtihed.com`](https://ijtihed.com) to browse my full portfolio.
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`godotengine/godot`](https://github.com/godotengine/godot/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 111.7k [`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.1k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.3k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 799 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 338
+[`godotengine/godot`](https://github.com/godotengine/godot/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 112k [`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.1k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.3k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 799 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 338
 <!-- CONTRIB_REPOS_END -->
 
 <div align="right">
