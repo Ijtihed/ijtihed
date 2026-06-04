@@ -33,7 +33,6 @@ Tip: visit [`ijtihed.com`](https://ijtihed.com) to browse my full portfolio.
 |                   | A historical simulation called [chronos](https://github.com/Ijtihed/chronos).                                         |
 | **Studying**      | MSc Mathematics @ [Aalto](https://www.aalto.fi) (minors in Physics & CS).                                             |
 | **Teaching**      | Aalto CS - Complex Systems, Software Testing, Software Design, Software Engineering.                                  |
-| **Writing**       | Posts & longform at [ijtihed.com](https://ijtihed.com).                                                               |
 | **Yapping**       | [X](https://x.com/ijtihedki) / [LinkedIn](https://www.linkedin.com/in/ijtihed/) / [GitHub](https://github.com/Ijtihed). |
 
 ---
