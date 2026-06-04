@@ -14,14 +14,6 @@
 <br>
 <br>
 
-#### ⚡ Stats
-
-<!-- STATS_START -->
-I joined GitHub **2** years ago and have since pushed **1,732** commits, opened **4** issues, submitted **19** pull requests, and earned **10** stars across **15** personal projects, with contributions to **29** public repositories.
-
-I'm not on a commit streak right now.
-<!-- STATS_END -->
-
 #### 🌀 Projects
 
 | **Featured**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | **Others**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
