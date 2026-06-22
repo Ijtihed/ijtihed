@@ -41,7 +41,7 @@ Tip: visit [`ijtihed.com`](https://ijtihed.com) to browse my full portfolio.
 
 **contributed to**
 <!-- CONTRIB_REPOS_START -->
-[`godotengine/godot`](https://github.com/godotengine/godot/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 112.8k [`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.2k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.4k [`scipy/scipy`](https://github.com/scipy/scipy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 14.8k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 802 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 340
+[`godotengine/godot`](https://github.com/godotengine/godot/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 112.9k [`numpy/numpy`](https://github.com/numpy/numpy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 32.2k [`lichess-org/lila`](https://github.com/lichess-org/lila/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 18.4k [`scipy/scipy`](https://github.com/scipy/scipy/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 14.8k [`Unity-Technologies/UnityDataTools`](https://github.com/Unity-Technologies/UnityDataTools/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 802 [`official-stockfish/fishtest`](https://github.com/official-stockfish/fishtest/pulls?q=is%3Apr+author%3AIjtihed) ⭐ 340
 <!-- CONTRIB_REPOS_END -->
 
 <div align="right">
