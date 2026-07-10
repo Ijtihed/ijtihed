@@ -13,6 +13,7 @@ Math + CS @ [Aalto](https://www.aalto.fi) / SWE @ [ŌURA](https://ouraring.com).
 - [forge](https://github.com/Ijtihed/forge) - Rust + Vulkan agentic-first game/simulation engine (Rust)
 - [supertest](https://supertest-chi.vercel.app) - Cohort playtesting tool adopted @ Supercell AI Lab (Next.js/Supabase)
 - [sandengine](https://github.com/Ijtihed/sandengine) - GPU falling-sand cellular automaton in Rust + wgpu/WGSL (Rust)
+- [ps2-forge](https://ps2-forge.vercel.app) - Engine + toolchain for building 2D/3D PlayStation 2 games easily (C)
 - [triple_pendulum_asm](https://github.com/Ijtihed/triple_pendulum_asm) - Triple pendulum simulator in x86-64 assembly with JS visualization (Assembly/JavaScript)
 - [stage](https://github.com/Ijtihed/stage) - VS Code timeline debugger for Node.js execution traces (TypeScript)
 - [driftmd](https://driftmd.vercel.app) - CI tool that catches README/code drift before users do (TypeScript)
@@ -48,7 +49,8 @@ Math + CS @ [Aalto](https://www.aalto.fi) / SWE @ [ŌURA](https://ouraring.com).
 - [skribe](https://github.com/Ijtihed/skribe) - Agentic scribe built at HackMIT '25
 - [emergent systems](https://emergent-systems-five.vercel.app) - Simulations of self-organizing computation
 - [ijtiOverleaf](https://ijtioverleaf.vercel.app) - ATS-friendly LaTeX resume template
-- inkbrawl - LLM-first fighting game with deterministic replay loops (private)
+- [horizon](https://github.com/Ijtihed/horizon) - Real-time black hole / white hole / wormhole horizon simulator (C++/OpenGL)
+- [inkbrawl](https://github.com/Ijtihed/inkbrawl) - LLM-first fighting game with deterministic replay loops (JavaScript)
 
 </details>
 
