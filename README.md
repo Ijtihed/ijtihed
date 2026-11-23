@@ -2,7 +2,7 @@
 
 I like systems and big numbers :)
 
-Masters in Math + CS @ [Aalto](https://www.aalto.fi).
+Grad Student in Math + CS @ [Aalto](https://www.aalto.fi).
 
 ## Public Projects 
 
