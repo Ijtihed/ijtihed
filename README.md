@@ -2,7 +2,7 @@
 
 I like systems and big numbers :)
 
-Math + CS @ [Aalto](https://www.aalto.fi) / SWE @ [ŌURA](https://ouraring.com).
+Math + CS @ [Aalto](https://www.aalto.fi).
 
 ## Public Projects 
 
